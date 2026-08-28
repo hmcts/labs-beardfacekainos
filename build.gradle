@@ -215,7 +215,9 @@ dependencies {
   }
 }
 
-mainClassName = 'uk.gov.hmcts.labs.beardfacekainos.Application'
+application {
+  mainClass = 'uk.gov.hmcts.labs.beardfacekainos.Application'
+}
 
 bootJar {
   getArchiveFileName().set(provider {
